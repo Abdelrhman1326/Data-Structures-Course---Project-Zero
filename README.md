@@ -1,1 +1,2 @@
-# Data-Structures-Course-Project-Zero
+# Data Structures Course
+## Project Zero
