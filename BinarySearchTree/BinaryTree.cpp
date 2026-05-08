@@ -144,6 +144,10 @@ void BinaryTree<T>::remove(T value) {
     node_to_remove->value = in_order_succesor_value;
 }
 
+// pre-order: top, left, right
+// post-order: left, right, top
+// in-order: left, top, right
+
 template<typename T>
 void BinaryTree<T>::pre_order_transverse(Node<T>* node) {
     if (this->root == nullptr) {
