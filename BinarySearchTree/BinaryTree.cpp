@@ -134,6 +134,7 @@ void BinaryTree<T>::remove(T value) {
         tempNode = tempNode->left;
     }
 
+    // in_order_succesor_value: the least value in the right side subtree
     T in_order_succesor_value = tempNode->value;
 
     // This call deletes the successor's old physical node
