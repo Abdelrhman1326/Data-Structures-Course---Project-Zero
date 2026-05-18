@@ -1,6 +1,5 @@
 #include "BinaryTree.h"
 #include "Node.h"
-#include "BinaryTree.h"
 
 #include <iostream>
 
