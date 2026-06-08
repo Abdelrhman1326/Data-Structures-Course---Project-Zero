@@ -32,7 +32,7 @@ int ArrList<T>::length() {
 }
 
 template<class T>
-int ArrList<T>::at(int position) {
+T& ArrList<T>::at(int position) {
     assert(position >= 0 && position < count);
     return arr[position];
 }
