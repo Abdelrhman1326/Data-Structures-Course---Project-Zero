@@ -12,7 +12,7 @@ public:
     ArrList();
     ~ArrList();
     int length();
-    int at(int pos);
+    T& at(int pos);
     void insertAt(int pos, T val);
     void deleteAt(int pos);
     void append(T val);
